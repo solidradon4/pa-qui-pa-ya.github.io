@@ -14,11 +14,11 @@ a{
 }
 .navbar-light .navbar-nav .active .nav-link{
 	background-color:transparent;
-	color:var(--menu-hover;
+	color:var(--menu-hover);
 }
 .navbar-light .navbar-nav .active .nav-link:hover{
 	background-color:transparent;
-	color:var(--menu-hover;
+	color:var(--menu-hover);
 }
 
 
@@ -79,6 +79,46 @@ a{
 }
 
 
+.carousel-caption{
+
+	top:50%;
+
+	left: 50%;
+
+	bottom: inherit;
+
+	transform: translate(-50%,-50%);
+
+	width: 60%;
+
+}
+
+.caption-center{
+
+	/*display: table-cell;
+
+	vertical-align: middle;*/
+
+}
+
+.carousel-item{
+
+	height: 100vh; /*opcional: en caso de no utilizar una imagen de fondo por slide*/
+
+}
+
+
+/*Altura definida para el Carousel manteniendo el aspecto de la imagen*/
+.carousel .carousel-item {
+  height: 450px;
+}
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
 
 
 
