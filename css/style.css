@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 body{
-	font-family: Segoe UI;
+	font-family: 'Poppins', sans-serif;
 	color: #FFFFFF;
 	background-color: #009BCA;
 
@@ -11,8 +12,22 @@ header {
 #navbar a{
 	padding: 15px 35px;
 }
-	
 
+
+#hero .btn-light{
+	background-color: transparent;
+	border: 2px solid #939393;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 700;
+}
+#hero .btn-light:hover{
+	background-color: #009BCA;
+	color: #fff;
+	border-color: #009BCA;
+}
 #pasos{
 	text-align: center;
 	background-color: #009BCA;
@@ -51,34 +66,6 @@ header {
 }
 
 
-
-#contacto{
-	background-position: top center;
-	background-size: cover;
-}
-#contacto h1 {
-	text-align: center;
-	font-weight: bold;
-	font-size: 28px;
-	padding: 50px;
-	text-transform: uppercase;
-}
-#contacto h2 {
-	text-transform: uppercase; 
-	font-weight: lighter;
-	font-size: 20px;
-	margin-left: 250px;
-
-}
-#contacto h2 {
-	border-style: solid;
-	border-color: #CECECE;
-	font-weight: 600;
-	padding: 5px 500px 5px 20px;
-	margin-bottom: 10px;
-	margin-right: 250px;
-}
-
 .titulo{
 	text-align: center;
 	font-weight: bold;
@@ -96,6 +83,18 @@ header {
 }
 
 
+#contacto input, #contacto select, #contacto textarea{
+	background-color: transparent;
+	color: #ffffff;
+}
+#contacto input::placeholder, #contacto textarea::placeholder {
+   color:    #fff;
+}
+#contacto select option {
+
+   color: #000;
+
+}
 footer{
     background: linear-gradient(to top, #2E58A6, transparent 100%);
 	margin-top: 150px;
@@ -112,10 +111,7 @@ footer h4{
 	font-size: 15px;
 	margin-left: 50px;
 }
-footer img{
-	margin-top: 50px;
-	margin-left: 50px;
-}
+
 footer p{
 	font-size: 10px;
 	margin-left: 11px;
