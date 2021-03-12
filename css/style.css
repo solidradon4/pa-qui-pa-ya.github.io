@@ -82,7 +82,17 @@ header {
 	text-transform: uppercase;
 }
 
-#contacto #form-contact #name{
+
+#contacto input, #contacto select, #contacto textarea{
+	background-color: transparent;
+	color: #ffffff;
+}
+#contacto input::placeholder, #contacto textarea::placeholder {
+   color:    #fff;
+}
+#contacto select option {
+
+   color: #000;
 
 }
 footer{
@@ -101,10 +111,7 @@ footer h4{
 	font-size: 15px;
 	margin-left: 50px;
 }
-footer img{
-	margin-top: 50px;
-	margin-left: 50px;
-}
+
 footer p{
 	font-size: 10px;
 	margin-left: 11px;
