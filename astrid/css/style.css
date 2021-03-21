@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+	color: #FFFFFF;
+	background-color: #009BCA;
+
+}
+header {
+
+	background-color: #009BCA;
+}
+#navbar a{
+	padding: 15px 35px;
+}
+
+#navbar a:hover{
+	
+	color:#393838;
+}
+
+#hero .btn-light{
+	background-color: transparent;
+	border: 2px solid #939393;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 700;
+}
+#hero .btn-light:hover{
+	background-color: #009BCA;
+	color: #fff;
+	border-color: #009BCA;
+}
+
+
+#marriot{
+	 padding: 150px 40px;
+	text-align: left;
+	
+}
+
+#marriot article{
+	background-color: #FFFFFF;
+	
+}
+
+#marriot h2 {
+	
+	color: #009BCA;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	
+}
+
+#marriot p{
+	color: #000000;
+	text-align: left;
+	margin-left: 30px;
+}
+
+#marriot .btn-light{
+	background-color: transparent;
+	border: 2px solid #939393;
+	padding-bottom: 10px 20px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	color: #000000;
+	font-size: 14px;
+	font-weight: 700;
+	margin-left: 30px;
+}
+
+#marriot .btn-light:hover{
+	background-color: #009BCA;
+	color: #fff;
+	border-color: #009BCA;
+}
+#marriot img{ 
+margin-top: 60px;
+	margin-left: 30px;
+}
+
+#clarion{
+	
+	padding-bottom: 150px;
+	padding-top: 75px;
+	
+}
+
+#clarion article{
+	
+	background-color: #FFFFFF;
+	
+}
+
+#clarion h2{
+	
+	color: #009BCA;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	
+	
+}
+
+#clarion p{
+	
+	margin-left: 30px;
+	color: #000000;
+}
+
+#clarion .btn-light{
+	background-color: transparent;
+	border: 2px solid #939393;
+	padding: 10px 20px;
+	margin-left: 30px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	color: #000000;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+#clarion .btn-light:hover{
+	background-color: #009BCA;
+	margin-left: 30px;
+	color: #fff;
+	border-color: #009BCA;
+}
+
+#clarion img{
+	margin-top: 50px;
+	
+}
+
+#preguntas{
+text-align: center;
+	margin-bottom: 40px;
+	
+	
+}
+.list-icon i{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 100%;
+	color: #878585;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #ddd;
+	font-size: 22px;
+	margin-right: 10px;
+	margin-left: 30px;
+	
+}
+
+.list-icon li {
+	margin-bottom: 10px;
+	color: #878585;
+	
+}
+
+.list-icon i:hover{
+	color: #009BCA;
+	
+}
+.list-icon li:hover{
+	color: #2C2B2B ;
+	
+}
+
+hr{
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	
+}
+
+.circulo{
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100px;
+	background-color: #009BCA;
+	display: block;
+	margin: auto;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+.titulo{
+	text-align: center;
+	font-weight: bold;
+	font-size: 28px;
+	padding: 50px;
+	text-transform: uppercase;
+}
+
+.subtitulo{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 50px;
+	text-transform: uppercase;
+}
+
+
+#contacto input, #contacto select, #contacto textarea{
+	background-color: transparent;
+	color: #ffffff;
+}
+#contacto input::placeholder, #contacto textarea::placeholder {
+   color:    #fff;
+}
+#contacto select option {
+
+   color: #000;
+
+}
+footer{
+    background: linear-gradient(to top, #2E58A6, transparent 100%);
+	margin-top: 150px;
+	padding: 10px;
+}
+footer h3{
+	font-weight: bold;
+	font-size: 18px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+footer h4{
+	font-weight: lighter;
+	font-size: 15px;
+	margin-left: 50px;
+}
+
+footer p{
+	font-size: 10px;
+	margin-left: 11px;
+}

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+	color: #FFFFFF;
+	background-color: #009BCA;
+
+}
+header {
+
+	background-color: #009BCA;
+}
+#navbar a{
+	padding: 15px 35px;
+	color: #ffffff;
+}
+
+#region{
+	background-color: #ffffff;
+}
+
+#features{
+	padding-bottom: 100px;
+}
+
+#region h1{
+	padding: 60px;
+	color: #009BCA;
+}
+
+
+
+#hero .btn-light{
+	background-color: transparent;
+	border: 2px solid #939393;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 700;
+}
+#hero .btn-light:hover{
+	background-color: #009BCA;
+	color: #fff;
+	border-color: #009BCA;
+}
+
+
+
+.cuadrado1{
+	width: 200px;
+	height: 200px;
+	border-radius: 0%;
+	background-image: url("../img/foto 1.jpg");
+	background-size: cover;
+	display: block;
+	padding-top: 70px;
+	margin-left: 110px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.cuadrado2{
+	width: 200px;
+	height: 200px;
+	border-radius: 0%;
+	background-image: url("../img/foto 3.jpg");
+	background-size: cover;
+	display: block;
+	padding-top: 70px;
+	margin-left: 110px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.cuadrado3{
+	width: 200px;
+	height: 200px;
+	border-radius: 0%;
+	background-image: url("../img/foto 4.jpg");
+	background-size: cover;
+	display: block;
+	padding-top: 70px;
+	margin-left: 110px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.cuadrado4{
+	width: 200px;
+	height: 200px;
+	border-radius: 0%;
+	background-image: url("../img/65235100_1304610501-1024x768.jpg");
+	background-size: cover;
+	display: block;
+	padding-top: 70px;
+	margin-left: 110px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.cuadrado5{
+	width: 200px;
+	height: 200px;
+	border-radius: 0%;
+	background-image: url("../img/foto 6.jpg");
+	background-size: cover;
+	display: block;
+	padding-top: 70px;
+	margin-left: 110px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.cuadrado6{
+	width: 200px;
+	height: 200px;
+	border-radius: 0%;
+	background-image: url("../img/foto 2.jpg");
+	background-size: cover;
+	display: block;
+	padding-top: 70px;
+	margin-left: 110px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.row{
+	text-align: center;
+}
+
+footer{
+    background: linear-gradient(to top, #2E58A6, transparent 100%);
+	margin-top: 100px;
+	padding: 10px;
+	color: #FFFFFF;
+}
+footer h3{
+	font-weight: bold;
+	font-size: 18px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+footer h4{
+	font-weight: lighter;
+	font-size: 15px;
+	margin-left: 50px;
+}
+
+footer p{
+	font-size: 10px;
+	margin-left: 11px;
+}
